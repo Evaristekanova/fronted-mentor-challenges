@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width:100%;
+	height: 600px;
+	background-color: rgb(15, 11, 11);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.challenge{
+	width:300px;
+	height: 300px;
+	background-color: rgb(20, 20, 66);
+	border-radius: 10px;
+	padding: 30px;
+}
+.fa-star{
+	padding: 5px;
+	color: rgb(255, 169, 8);
+	border: 1px solid rgb(64, 64, 119);
+	border-radius: 50%;
+}
+h1{
+	display: block;
+	color:rgb(219, 219, 219);
+	padding:20px 0px 5px 0px;
+}
+.parag{
+	color:rgb(219, 219, 219);
+	font-size:20px;
+	word-spacing: 1px;
+    padding: 5px 0px 10px 0px;
+}
+.link{
+	width: 100%;
+	height: 50px;
+	padding: 10px 0px;
+}
+.link ul{
+	display: flex;
+	float: left;
+}
+.link ul li{
+	list-style: none;
+	padding: 10px;
+}
+.link ul li a:link,
+.link ul li a:active{
+	padding: 10px 14px;
+	text-align: center;
+	color:rgb(219, 219, 219);
+	border: 1px solid rgb(64, 64, 119);
+	border-radius: 50%;
+	text-decoration: none;
+}
+.link ul li a:hover,
+.link ul li a:visited{
+	color:rgb(219, 219, 219);
+	border: 1px solid rgb(64, 64, 119);
+	background-color: rgb(255, 169, 8);
+	transition: all .4s ease-in;
+}
+
+button{
+	width: 100%;
+	line-height: 33px;
+	color:rgb(219, 219, 219);
+	background-color: rgb(209, 138, 5);
+	border: none;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
